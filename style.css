@@ -1,0 +1,63 @@
+.up-menu{
+  background-color: white;
+}
+
+
+
+
+
+.site-logo{
+  display:  inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.logo{
+  width: 130px;
+  text-align: Left;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.contact-bar{
+  background-color: rgba(198, 198, 255, 0.5);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact{
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.phone-number{
+  font-size: 20px;
+  font-family: Verdana;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+.phone-number2{
+  font-size: 20px;
+  font-family: Verdana;
+  margin-left: 414px;
+}
+
+.address{
+  font-size: 20px;
+  font-family: Verdana;
+  margin-top: 30px;
+  margin-left: 290px;
+}
+
+.update{
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+}
