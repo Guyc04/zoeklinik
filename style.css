@@ -1,0 +1,102 @@
+a{
+  text-decoration: none;
+}
+
+.all-up-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.up-menu{
+  width: 150px;
+}
+
+.logo{
+  width: 150px;
+}
+
+.up-menu-two{
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-menu-button{
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: color 0.6s,
+              background-color 0.6s,
+              border-radius 0.6s;
+}
+
+.main-menu-button:hover{
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+}
+
+.up-menu-title{
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.second-flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.second-flexbox-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  max-width: 700px;
+  height: auto;
+  font-family: Courier, monospace;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.5;
+  transition: letter-spacing 0.6s, 
+              transform 0.6s;
+}
+
+.second-flexbox-title:hover{
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  transform: scale(1);
+}
+.all-self-texts{
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu-photo{
+  max-width: 700px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  transition: box-shadow 0.5s;
+}
+
+.main-menu-photo:hover{
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+}
+
+.update{
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
